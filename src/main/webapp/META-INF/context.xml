@@ -4,6 +4,6 @@
 	<Resource name="jdbc/myplan" auth="Container"
 		type="javax.sql.DataSource" username="root" password="root"
 		driverClassName="com.mysql.jdbc.Driver"
-		url="jdbc:mysql://localhost:3306/myplan"
+		url="jdbc:mysql://db:3306/myplan"
 		maxActive="10" maxIdle="4" />
 </Context>
